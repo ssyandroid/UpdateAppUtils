@@ -1,0 +1,2 @@
+# UpdateAppUtils
+APP检测升级与下载APP并安装的Android原生API的封装工具类
