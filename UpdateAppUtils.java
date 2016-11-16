@@ -451,6 +451,7 @@ public class UpdateAppUtils {
         progressDialog_update.setMessage("正在升级，请稍后");
         progressDialog_update.setMax(100);
         progressDialog_update.setCancelable(false);
+	progressDialog_update.setCanceledOnTouchOutside(false);
         progressDialog_update.setProgress(0);
         progressDialog_update.show();
     }
